@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tamagochi</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <select id="typeValue">
+        <option value="pug">Lazy pug (hard level)</option>
+        <option value="kitty">Fluffy kitty (easy level)</option>
+    </select>
+    <button id ="startBtn">Start</button>
+    <div id="foodValue">Score</div>
+        <button class="btn" id="foodBtn">Food</button>
+    <div id="cleanValue">Score</div>
+        <button class="btn" id="cleanBtn">Clean</button>
+    <div id="happinessValue">Score</div>
+        <button class="btn" id="happinessBtn">Happiness</button>
+
+    <script src="js/getAccessWithTamagochi.js"></script>
+    <script src="js/createTamagochi.js"></script>
+    <script src="js/entities/tamagochi.js"></script>
+</body>
+</html>
